@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информационный сайт для велосипедистов</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Велосипедисты</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#blog">Блог</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#videos">Видео</a></li>
+                <li><a href="#maps">Маршруты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Добро пожаловать на сайт велосипедистов</h2>
+            <p>Здесь вы найдете все необходимое для увлечения велосипедами.</p>
+            <div class="slideshow">
+                <!-- Слайд-шоу изображений -->
+            </div>
+        </section>
+        <section id="blog">
+            <h2>Блог</h2>
+            <div class="blog-posts">
+                <article>
+                    <h3><a href="blog-post-1.html">Первая статья блога</a></h3>
+                    <p>Краткое описание первой статьи блога. <a href="blog-post-1.html">Читать далее...</a></p>
+                </article>
+                <!-- Другие статьи блога -->
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Галерея</h2>
+            <div class="gallery-images">
+                <!-- Изображения -->
+            </div>
+        </section>
+        <section id="videos">
+            <h2>Видео</h2>
+            <div class="video-content">
+                <!-- Видеоролики -->
+            </div>
+        </section>
+        <section id="maps">
+            <h2>Карты маршрутов</h2>
+            <div class="maps-content">
+                <article>
+                    <h3><a href="https://www.komoot.com/tour/1619388036#oA#">В Сморгонь по вайбу</a></h3>
+                    <img src="trash/images/1.jpg" alt="В Сморгонь по вайбу">
+                </article>
+                <!-- Другие маршруты -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" maxlength="250">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message"></textarea>
+                <label for="photo">Загрузить фото:</label>
+                <input type="file" id="photo" name="photo" accept="image/*">
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Велосипедисты. Все права защищены.</p>
+    </footer>
+</body>
+</html>
